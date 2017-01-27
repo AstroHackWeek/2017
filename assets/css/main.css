@@ -1310,7 +1310,7 @@
 /* Basic */
 
 	body {
-		background-color: #2b006b;/*#183026; */
+		background-color: #6d4f78;/*#183026; */
 		background-image: url("../../images/bkg_shaded.png");
 		/*background-image: url("images/overlay.png"), url("../../images/bkg_small.png");*/
 		background-repeat: repeat, no-repeat;
@@ -1388,7 +1388,7 @@
 		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		color: #35b88f;
+		color: #6d4f78;
 		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
 		text-decoration: none;
 		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
@@ -1659,12 +1659,26 @@
 	}
 
 	table {
+                margin: 0 0 2em 0;
 		width: 100%;
 	}
+                table tbody tr {
+                        border: solid 1px rgba(109, 79, 120, 0.25);
+                        border-left: 0;
+                        border-right: 0;
+                }
 
+                        table tbody tr:nth-child(2n + 1) {
+                                background-color: rgba(109, 79, 120, 0.25);
+                        }
+/*
 		table.default {
 			width: 100%;
 		}
+		  table.center {
+    			margin-left:auto; 
+    			margin-right:auto;
+  			}
 
 			table.default tbody tr {
 				border-top: solid 1px #eae9e9;
@@ -1678,6 +1692,11 @@
 				padding: 0.75em 1.25em 0.75em 1.25em;
 			}
 
+			.tr.style1 {
+				background-color:#c9c2dc;
+				
+
+			}
 			table.default th {
 				text-align: left;
 				font-weight: 400;
@@ -1687,7 +1706,7 @@
 			table.default thead {
 				background: #f5f5f5;
 			}
-
+*/
 /* Button */
 
 	input[type="button"],
@@ -1703,7 +1722,7 @@
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
+		background: #6d4f78;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
@@ -1800,6 +1819,13 @@
 			background: #fff;
 			padding: 3em;
 		}
+                        .box.style1 header {
+                               display: inline-block;
+                               background: #fff;
+                               padding: 2em 3em 2em 3em;
+                               margin: 0;
+			       color: #3a3939;
+                        }
 
 			.box.style1 .image {
 				display: block;
@@ -1857,6 +1883,8 @@
 				background: #fff;
 				padding: 2em 3em 2em 3em;
 				margin: 0;
+                                color: #3a3939;
+
 			}
 
 				.box.style2 header p {
@@ -1901,10 +1929,14 @@
 		.box.style3 {
 			background: #fff;
 			padding: 3em;
+                        color: #3a3939;
+
 		}
 
 			.box.style3 header {
 				text-align: center;
+                                color: #3a3939;
+
 			}
 
 /* Icons */
@@ -2008,14 +2040,14 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		background: #6d4f78 url("images/banner.svg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
 	}
 
 		#banner .button {
-			color: #35b882;
+			color: #c9c2dc;/*#6d4f782;*/
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 
 		}
@@ -2074,7 +2106,7 @@
 		}
 
 			#footer a:hover {
-				color: #35b88f;
+				color: #6d4f78;
 				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
 				border-bottom-color: rgba(53, 184, 143, 0.5);
 			}
