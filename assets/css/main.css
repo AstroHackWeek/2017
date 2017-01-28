@@ -1663,13 +1663,13 @@
 		width: 100%;
 	}
                 table tbody tr {
-                        border: solid 1px rgba(109, 79, 120, 0.25);
+                        border: solid 1px #e2d8e5;
                         border-left: 0;
                         border-right: 0;
                 }
 
                         table tbody tr:nth-child(2n + 1) {
-                                background-color: rgba(109, 79, 120, 0.25);
+                                background-color: #e2d8e5;
                         }
 /*
 		table.default {
@@ -2047,7 +2047,7 @@
 	}
 
 		#banner .button {
-			color: #c9c2dc;/*#6d4f782;*/
+			color: #6d4f78;
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 
 		}
