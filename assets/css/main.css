@@ -2348,6 +2348,11 @@
 				.box.style3 {
 					padding: 2.5em 2em 2.5em 2em;
 				}
+				.box.style4 header{
+
+					width: 200% auto;
+					background-size: 200% auto;
+				}
 
 		/* Banner */
 
